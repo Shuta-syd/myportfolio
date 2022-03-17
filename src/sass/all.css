@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+#main {
+  height: 100vh;
+  color: #272341;
+  font-weight: 400;
+  padding: 0rem 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main .main-title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
+  text-align: left;
+}
+
+#main .main-title .text-color {
+  color: #02aab0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  background: #fff;
+  margin: 0;
+}
+
+#about {
+  height: 100%;
+  padding: 5.6rem 10rem;
+  background-color: #02aab0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+#about .about-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about .about-body .about-text {
+  font-size: 1.25rem;
+  line-height: 190%;
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  color: #fff;
+}
+
+#about .about-body .about-text p {
+  margin: 0;
+  width: 80%;
+  text-align: left;
+}
+
+#about .about-body .about-text p .text-bold {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+#about .about-body .about-img {
+  text-align: left;
+}
+
+#about .about-body .about-img img {
+  width: 80%;
+  border-radius: 2px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#skill {
+  height: 100%;
+  padding: 0rem 10rem;
+  margin-top: 9.5rem;
+  color: #272341;
+}
+
+#skill h2 {
+  font-size: 2.5rem;
+}
+
+#skill #skills-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#skill #skills-body h3 {
+  text-align: center;
+}
+
+#skill #skills-body .front {
+  text-align: left;
+}
+
+#skill #skills-body .front img {
+  height: 3.3rem;
+}
+
+#skill #skills-body .back {
+  text-align: left;
+}
+
+#skill #skills-body .back img {
+  height: 3.3rem;
+}
+
+#skill #skills-body .other {
+  text-align: left;
+}
+
+#skill #skills-body .other img {
+  height: 3.3rem;
+}
+
+#project {
+  height: 100%;
+  padding: 0rem 10rem;
+  margin-top: 9.5rem;
+  color: #272341;
+}
+
+#project h2 {
+  font-size: 2.5rem;
+}
+
+#project #project-body p {
+  font-size: 1.2rem;
+}
+
+#footer {
+  background-color: #333;
+  padding: 2.5rem 10rem;
+  margin-top: 9.5rem;
+}
+
+#footer .social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#footer .social-links a {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 10rem;
+  height: 2.4rem;
+  font-size: 2.2rem;
+  color: #fff;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+#footer .social-links a:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+#footer hr {
+  margin: 1rem auto;
+  border: 0;
+  width: 30%;
+  border-top: 2px solid grey;
+}
+
+#footer .footer-text {
+  color: gray;
+  font-size: 0.8rem;
+}
+/*# sourceMappingURL=all.css.map */

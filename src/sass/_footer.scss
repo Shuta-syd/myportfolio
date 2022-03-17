@@ -1,0 +1,31 @@
+#footer {
+	background-color: #333;
+	padding: 2.5rem 10rem;
+	margin-top: 9.5rem;
+
+	.social-links {
+		display: flex;
+		justify-content: center;
+		a {
+			align-items: center;
+			width: 10rem;
+			height: 2.4rem;
+			font-size: 2.2rem;
+			color: #fff;
+			transition: all 0.2s ease-in;
+			&:hover {
+      			transform: translateY(-2px);
+    		}
+		}
+	}
+	hr {
+		margin: 1rem auto;
+    	border: 0;
+    	width: 30%;
+    	border-top: 2px solid grey;
+	}
+	.footer-text {
+		color: gray;
+		font-size: 0.8rem;
+	}
+}
