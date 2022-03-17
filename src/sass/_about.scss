@@ -18,7 +18,7 @@
 			line-height: 190%;
 			flex-basis: 80%;
 			color: #fff;
-			p {
+			p.en{
 				margin: 0;
 				width: 80%;
 				text-align: left;
@@ -26,6 +26,11 @@
 					font-size: 1.4rem;
 					font-weight: 600;
 				}
+			}
+			p.ja {
+				margin-top: 3rem;
+				width: 80%;
+				text-align: left;
 			}
 		}
 

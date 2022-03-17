@@ -60,15 +60,21 @@ body {
   color: #fff;
 }
 
-#about .about-body .about-text p {
+#about .about-body .about-text p.en {
   margin: 0;
   width: 80%;
   text-align: left;
 }
 
-#about .about-body .about-text p .text-bold {
+#about .about-body .about-text p.en .text-bold {
   font-size: 1.4rem;
   font-weight: 600;
+}
+
+#about .about-body .about-text p.ja {
+  margin-top: 3rem;
+  width: 80%;
+  text-align: left;
 }
 
 #about .about-body .about-img {
