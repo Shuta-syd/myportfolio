@@ -69,8 +69,8 @@ body {
 #about h2 {
   font-size: 2.5rem;
   color: #fff;
-  -webkit-animation: fadeup 1s ease 0.7s 1 normal backwards;
-          animation: fadeup 1s ease 0.7s 1 normal backwards;
+  -webkit-animation: fadeup 1s ease 0.3s 1 normal backwards;
+          animation: fadeup 1s ease 0.3s 1 normal backwards;
 }
 
 @-webkit-keyframes fadeup {
@@ -98,6 +98,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-animation: fadeup 1s ease 0.7s 1 normal backwards;
+          animation: fadeup 1s ease 0.7s 1 normal backwards;
 }
 
 #about .about-body .about-text {
@@ -152,9 +154,9 @@ body {
 }
 
 #skill h2 {
+  -webkit-animation: fadeup 1s ease 0.3s 1 normal backwards;
+          animation: fadeup 1s ease 0.3s 1 normal backwards;
   font-size: 2.5rem;
-  -webkit-animation: fadeup 1s ease 0.7s 1 normal backwards;
-          animation: fadeup 1s ease 0.7s 1 normal backwards;
 }
 
 #skill #skills-body {
@@ -164,6 +166,8 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-animation: fadeup 1s ease 0.7s 1 normal backwards;
+          animation: fadeup 1s ease 0.7s 1 normal backwards;
 }
 
 #skill #skills-body h3 {
@@ -223,9 +227,14 @@ body {
 }
 
 #project h2 {
+  -webkit-animation: fadeup 1s ease 0.3s 1 normal backwards;
+          animation: fadeup 1s ease 0.3s 1 normal backwards;
+  font-size: 2.5rem;
+}
+
+#project #project-body {
   -webkit-animation: fadeup 1s ease 0.7s 1 normal backwards;
           animation: fadeup 1s ease 0.7s 1 normal backwards;
-  font-size: 2.5rem;
 }
 
 #project #project-body p {

@@ -5,10 +5,11 @@
 	color: #272341;
 
 	h2 {
-		animation: fadeup 1s ease 0.7s 1 normal backwards;
+		animation: fadeup 1s ease 0.3s 1 normal backwards;
 		font-size: 2.5rem;
 	}
 	#project-body {
+		animation: fadeup 1s ease 0.7s 1 normal backwards;
 		p {
 			font-size: 1.2rem;
 		}
