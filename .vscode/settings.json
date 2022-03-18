@@ -1,5 +1,6 @@
 {
   "editor.renderWhitespace": "all",
   "editor.insertSpaces": false,
-  "editor.detectIndentation": false
+"editor.detectIndentation": false,
+"editor.fontSize": 15
 }

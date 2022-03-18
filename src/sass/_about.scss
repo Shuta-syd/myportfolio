@@ -5,6 +5,7 @@
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 
 	h2 {
+		margin-top: 0;
 		font-size: 2.5rem;
 		color: #fff;
 		animation: fadeup 1s ease 0.3s 1 normal backwards;
@@ -22,7 +23,6 @@
 		display: flex;
 		align-items: center;
 		animation: fadeup 1s ease 0.7s 1 normal backwards;
-
 		.about-text {
 			font-size: 1.25rem;
 			line-height: 190%;
@@ -30,7 +30,7 @@
 			color: #fff;
 			p.en{
 				margin: 0;
-				width: 80%;
+				width: 90%;
 				text-align: left;
 				.text-bold {
 					font-size: 1.4rem;
@@ -39,22 +39,44 @@
 			}
 			p.ja {
 				margin-top: 3rem;
-				width: 80%;
+				width: 90%;
 				text-align: left;
 			}
 		}
 
 		.about-img {
-			text-align: left;
+			text-align: right;
 			transition: all 0.2s ease-in;
 			&:hover {
 				cursor: pointer;
       			transform: translateY(-2px);
     		}
 			img {
-				width: 80%;
+				width: 100%;
+				height: auto;
 				border-radius: 2px;
 				box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+			}
+		}
+	}
+}
+
+// media for tablet
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+	#about {
+		padding: 5rem 5rem;
+		h2 {
+			font-size: 5vw;
+		}
+		.about-body{
+			.about-text {
+				font-size: 1.2vw;
+				flex-basis: 150%;
+				p.en {
+					.text-bold {
+						font-size: 1.7vw;
+					}
+				}
 			}
 		}
 	}

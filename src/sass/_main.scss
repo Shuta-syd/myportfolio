@@ -28,3 +28,16 @@
 	}
 	}
 }
+
+// media for tablet
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+	#main {
+		padding: 0rem 5rem;
+		justify-content: center;
+
+		.main-title {
+			font-size: 5vw;
+			text-align: center;
+		}
+	}
+}

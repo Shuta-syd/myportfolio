@@ -49,3 +49,53 @@
 		}
 	}
 }
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+	#skill {
+		padding: 0rem 5rem;
+		margin-top: 5rem;
+		h2 {
+			font-size: 5vw;
+		}
+		#skills-body {
+			display: flex;
+			justify-content: space-evenly;
+			animation: fadeup 1s ease 0.7s 1 normal backwards;
+
+			h3 {
+				text-align: center;
+				font-size: 2vw;
+			}
+			.front {
+				text-align: left;
+				img {
+					height: 5vw;
+					transition: all 0.2s ease-in;
+					&:hover {
+					transform: translateY(-2px);
+					}
+				}
+			}
+			.back {
+				text-align: left;
+				img {
+					height: 5vw;
+					transition: all 0.2s ease-in;
+					&:hover {
+					transform: translateY(-2px);
+					}
+				}
+			}
+			.other {
+				text-align: left;
+				img {
+					height: 5vw;
+					transition: all 0.2s ease-in;
+					&:hover {
+					transform: translateY(-2px);
+					}
+				}
+			}
+		}
+	}
+}

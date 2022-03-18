@@ -51,6 +51,19 @@
   }
 }
 
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  #main {
+    padding: 0rem 5rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #main .main-title {
+    font-size: 5vw;
+    text-align: center;
+  }
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -67,6 +80,7 @@ body {
 }
 
 #about h2 {
+  margin-top: 0;
   font-size: 2.5rem;
   color: #fff;
   -webkit-animation: fadeup 1s ease 0.3s 1 normal backwards;
@@ -112,7 +126,7 @@ body {
 
 #about .about-body .about-text p.en {
   margin: 0;
-  width: 80%;
+  width: 90%;
   text-align: left;
 }
 
@@ -123,12 +137,12 @@ body {
 
 #about .about-body .about-text p.ja {
   margin-top: 3rem;
-  width: 80%;
+  width: 90%;
   text-align: left;
 }
 
 #about .about-body .about-img {
-  text-align: left;
+  text-align: right;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
@@ -140,10 +154,28 @@ body {
 }
 
 #about .about-body .about-img img {
-  width: 80%;
+  width: 100%;
+  height: auto;
   border-radius: 2px;
   -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
           box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  #about {
+    padding: 5rem 5rem;
+  }
+  #about h2 {
+    font-size: 5vw;
+  }
+  #about .about-body .about-text {
+    font-size: 1.2vw;
+    -ms-flex-preferred-size: 150%;
+        flex-basis: 150%;
+  }
+  #about .about-body .about-text p.en .text-bold {
+    font-size: 1.7vw;
+  }
 }
 
 #skill {
@@ -219,6 +251,66 @@ body {
           transform: translateY(-2px);
 }
 
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  #skill {
+    padding: 0rem 5rem;
+    margin-top: 5rem;
+  }
+  #skill h2 {
+    font-size: 5vw;
+  }
+  #skill #skills-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-animation: fadeup 1s ease 0.7s 1 normal backwards;
+            animation: fadeup 1s ease 0.7s 1 normal backwards;
+  }
+  #skill #skills-body h3 {
+    text-align: center;
+    font-size: 2vw;
+  }
+  #skill #skills-body .front {
+    text-align: left;
+  }
+  #skill #skills-body .front img {
+    height: 5vw;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+  #skill #skills-body .front img:hover {
+    -webkit-transform: translateY(-2px);
+            transform: translateY(-2px);
+  }
+  #skill #skills-body .back {
+    text-align: left;
+  }
+  #skill #skills-body .back img {
+    height: 5vw;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+  #skill #skills-body .back img:hover {
+    -webkit-transform: translateY(-2px);
+            transform: translateY(-2px);
+  }
+  #skill #skills-body .other {
+    text-align: left;
+  }
+  #skill #skills-body .other img {
+    height: 5vw;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+  #skill #skills-body .other img:hover {
+    -webkit-transform: translateY(-2px);
+            transform: translateY(-2px);
+  }
+}
+
 #project {
   height: 100%;
   padding: 0rem 10rem;
@@ -239,6 +331,19 @@ body {
 
 #project #project-body p {
   font-size: 1.2rem;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  #project {
+    padding: 0rem 5rem;
+    margin-top: 8rem;
+  }
+  #project h2 {
+    font-size: 5vw;
+  }
+  #project #project-body p {
+    font-size: 3vw;
+  }
 }
 
 #footer {
@@ -283,5 +388,46 @@ body {
 #footer .footer-text {
   color: gray;
   font-size: 0.8rem;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  #footer {
+    background-color: #333;
+    padding: 2.5rem 5rem;
+    margin-top: 8rem;
+  }
+  #footer .social-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #footer .social-links a {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 20vw;
+    height: 5vw;
+    font-size: 4vw;
+    color: #fff;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+  #footer .social-links a:hover {
+    -webkit-transform: translateY(-2px);
+            transform: translateY(-2px);
+  }
+  #footer hr {
+    margin: 1rem auto;
+    border: 0;
+    width: 40%;
+    border-top: 2px solid grey;
+  }
+  #footer .footer-text {
+    color: gray;
+    font-size: 0.5vw;
+  }
 }
 /*# sourceMappingURL=all.css.map */
