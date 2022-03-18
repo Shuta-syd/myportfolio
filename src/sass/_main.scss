@@ -7,7 +7,7 @@
 	align-items: center;
 
 	.main-title {
-		font-size: 4rem;
+		font-size: 4vw;
 		font-weight: 700;
 		margin: 0;
 		text-align: left;
@@ -33,6 +33,19 @@
 @media screen and (min-width: 600px) and (max-width: 1024px) {
 	#main {
 		padding: 0rem 5rem;
+		justify-content: center;
+
+		.main-title {
+			font-size: 5vw;
+			text-align: center;
+		}
+	}
+}
+
+//media for smartphone
+@media screen and (max-width: 599px) {
+	#main {
+		padding: 0rem 0.5rem;
 		justify-content: center;
 
 		.main-title {

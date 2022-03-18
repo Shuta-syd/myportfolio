@@ -30,3 +30,18 @@
 		}
 	}
 }
+
+@media screen and (max-width: 599px) {
+	#project {
+		padding: 0rem 3rem;
+		margin-top: 6rem;
+		h2 {
+			font-size: 5vw;
+		}
+		#project-body {
+			p {
+				font-size: 3vw;
+			}
+		}
+	}
+}
